@@ -34,16 +34,23 @@ body {
   letter-spacing: 0.03em;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (min-width: 320px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480;
+  }
 }
 
 /* переменные для основного цвета текста */
@@ -224,18 +231,22 @@ body {
   margin: auto;
 }
 
-.list-section-work {
-  display: flex;
-}
-
 .section-icon-features {
   background: var(--maket-color);
   border-radius: 4px;
   padding: 25px 0px;
 }
 
-.list-features:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 480px) {
+  .list-features {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list-features {
+    margin-left: 30px;
+  }
 }
 
 .heading-stction-features {
@@ -244,6 +255,12 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 320px) {
+  .heading-stction-features {
+    text-align: center;
+  }
 }
 
 .section-icon-features {
@@ -260,6 +277,13 @@ body {
 .icon-parametr {
   width: 70px;
   height: 70px;
+}
+
+@media screen and (min-width: 320px) {
+  .style-under-heading {
+    margin-bottom: 30px;
+    text-align: center;
+  }
 }
 
 .overlay-card-annexes {
