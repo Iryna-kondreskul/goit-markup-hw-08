@@ -1,16 +1,26 @@
 .container {
-  outline: 2px solid lightcoral;
+  // outline: 2px solid lightcoral;
   // width: 1200px;
-  // width: 100%;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 
   @media screen and(min-width:320px) {
-    max-width: 480;
+    width: 480px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
-  @media screen and(min-width:768px) {
-    max-width: 768;
+  @media screen and(min-width:576px) {
+    width: 768px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and(min-width:1200px) {
+    width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
