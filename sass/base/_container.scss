@@ -1,6 +1,5 @@
 .container {
-  // outline: 2px solid lightcoral;
-  // width: 1200px;
+  // outline: 2px solid red;
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
@@ -12,13 +11,13 @@
     padding-bottom: 60px;
   }
 
-  @media screen and(min-width:576px) {
+  @media screen and(min-width:720px) {
     width: 768px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
 
-  @media screen and(min-width:1200px) {
+  @media screen and(min-width:960px) {
     width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;

@@ -25,7 +25,7 @@
         <div class="container header__container">
             <!-- Верхняя линия -->
             <!-- nav - навигация на другие страницы -->
-            <!-- <nav class="header__nav">
+             <nav class="header__nav">
                 <a class="header__logo-link link" href="">Web<span style="color: #000000;">Studio</span>
                 </a>
 
@@ -43,10 +43,16 @@
                         <a class="menu__header-link link menu__color-link" href="">Контакты</a>
                     </li>
                 </ul>
-            </nav> -->
+            </nav> 
+
+            <button type="button" class="header__mobile-menu-btn">
+                <svg class="header__mobile-menu-icon">
+                    <use href="./images/icons.svg#icon-menu_header"></use>
+                </svg>
+            </button>
 
 
-            <!-- <ul class="contact list">
+             <ul class="contact list"> 
 
                 <li class="contact__menu">
                     <a class="contact__mail-link link" href="mailto:info@devstudio.com">
@@ -66,7 +72,22 @@
                         +38 096 111 11 11
                     </a>
                 </li>
-            </ul> -->
+            </ul>
+        </div>
+
+        <div class="mobile-menu">
+            <div class="container mobile-menu__container">
+                <button class="mobile-menu__close-btn">
+                    <svg class="header__mobile-menu-icon">
+                        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu__nav list">
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link link" href=""></a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
     </header>
@@ -76,7 +97,7 @@
 
         <!-- Шапка -->
         <!-- section hero-section -->
-        <!-- <section class=" hero ">
+         <!-- <section class=" hero ">
             <div class="container">
                 <h1 class="hero__name">
                     Эффективное решение 
@@ -89,10 +110,10 @@
             </div>
 
 
-        </section> -->
+        </section>  -->
 
         <!-- Особенности -->
-        <section class="section">
+          <!-- <section class="section">
             <div class="container">
 
 
@@ -161,12 +182,12 @@
                 </ul>
             </div>
 
-        </section>
+        </section>  -->
 
         <!-- Чем мы занимаемся -->
-        <!-- <section class="section">
+         <!-- <section class="section"> 
             <div class="container">
-                <h2 class="style-main-heading heading">Чем мы занимаемся</h2>
+                <h2 class="style-main-heading heading heading_cections_work">Чем мы занимаемся</h2>
                 <ul class="list-img list">
                     <li class="list-container-img">
                         
@@ -205,7 +226,7 @@
                 </ul>
             </div>
 
-        </section> -->
+        </section>   -->
 
         <!-- Наша команда -->
         <!-- <section class="section section-our-team">
@@ -215,8 +236,21 @@
                 <ul class="card-set list">
 
                     <li class="our-team">
-                       
-                                <img src="./images/index/igor.jpg" alt="igor" width="270" height="260">
+                       <picture>
+                        <source srcset="./images/mobile/studia/igor_mobile_@1x.jpg,
+                        ./images/mobile/studia/igor_mobile_@2x.jpg"
+                        media="(min-width:320px)">
+
+                        <source srcset="./images/tablet/studia/igor_tablet_@1x.jpg,
+                        ./images/tablet/studia/igor_tablet_@2x.jpg"
+                        media="(min-width:768px)">
+
+                        <source srcset="./images/desktop/studia/igor_desktop_@1x.jpg, 
+                        ./images/desktop/studia/igor_desktop_@2.jpg" 
+                        media="(min-width:1024px)">
+                        <img class="img" src="#" alt="Игорь Демьяненко">
+                       </picture>
+                               
                         
                         <div class="team-card">
                             <h3 class="heading heading-name">Игорь Демьяненко</h3>
@@ -265,8 +299,19 @@
                     </li>
 
                     <li class="our-team">
-                       
-                                <img src="./images/index/olga.jpg" alt="olga" width="270" height="260">                      
+                       <picture>
+                        <source srcset="./images/mobile/studia/olga_mobile_@1x.jpg,
+                        ./images/mobile/studia/olga_mobile_@2x.jpg"
+                        media="(min-width:320px)">
+                        <source srcset="./images/tablet/studia/olga_tablet_@1x.jpg,
+                        ./images/tablet/studia/olga_tablet_@2x.jpg"
+                        media="(min-width:768px)">
+                        <source srcset="./images/desktop/studia/olga_desktop_@1x.jpg,
+                        ./images/desktop/studia/olga_desktop_@2x.jpg"
+                        media="(min-width:1024px)">
+                        <img class="img" src="#" alt="Ольга Репина">
+                       </picture>
+                                                     
                        
                         <div class="team-card">
                             <h3 class="heading-name heading">Ольга Репина</h3>
@@ -316,8 +361,20 @@
                     </li>
 
                     <li class="our-team">
-                                <img src="./images/index/nikolay.jpg" alt="nokolay" width="270" height="260">
-                              
+                                <picture>
+                                    <source srcset="./images/mobile/studia/nikolay_mobile_@1x.jpg,
+                                    ./images/mobile/studia/nikolay_mobile_@2x.jpg"
+                                    media="(min-width:320px)">
+
+                                    <source srcset="./images/tablet/studia/nikolay_tablet_@1x.jpg,
+                                    ./images/tablet/studia/nikolay_tablet_@2x.jpg" 
+                                     media="(min-width:768px)">
+
+                                    <source srcset="./images/desktop/studia/nikolay_desktop_@1x.jpg,
+                                    ./images/desktop/studia/nikolay_desktop_@2x.jpg" 
+                                     media="(min-width:1024px)">
+                                    <img class="img" src="#" alt="Николай Тарасов">
+                                </picture>
                         <div class="team-card">
                             <h3 class="heading-name heading">Николай Тарасов</h3>
                             <p class="sect-text style-section-team under-heading">Marketing</p>
@@ -366,8 +423,20 @@
                     </li>
 
                     <li class="our-team">
-                                <img src="./images/index/mihail.jpg" alt="mihail" width="270" height="260">
-                               
+                                <picture>
+                                    <source srcset="./images/mobile/studia/mihail_mobile_@1x.jpg,
+                                    ./images/mobile/studia/mihail_mobile_@2x.jpg"
+                                     media="(min-width:320px)">
+                                
+                                    <source srcset="./images/tablet/studia/mihail_tablet_@1x.jpg,
+                                    ./images/tablet/studia/mihail_tablet_@2x.jpg"
+                                     media="(min-width:768px)">
+                                
+                                    <source srcset="./images/desktop/studia/mihail_desktop_@1x.jpg,
+                                    ./images/desktop/studia/mihail_desktop_@2x.jpg" 
+                                    media="(min-width:1024px)">
+                                    <img class="img" src="#" alt="Михаил Ермаков">
+                                </picture>
                         <div class="team-card">
                             <h3 class="heading-name heading">Михаил Ермаков</h3>
                             <p class="sect-text style-section-team under-heading">UI Designer</p>
@@ -419,18 +488,21 @@
                 </ul>
             </div>
 
-        </section> -->
+        </section>  -->
 
         <!-- Постоянные клиенты -->
-        <section class="section">
-            <div class="container">
+        <!-- <section class="section"> -->
+            <!-- <div class="container">  -->
 
-                <!--   cection-regular-customers-->
+                  <!-- cection-regular-customers -->
                 <!-- <h2 class="heading style-main-heading">Постоянные клиенты</h2> -->
 
-                <!-- <ul class="list-labe-company list">
+                <!-- <ul class="list-labe-company list"> 
+
                     <li class="company-label">
+
                         <a class="labe-company" href="">
+
                             <svg class="icon-client">
                                 <use href="./images/icons.svg#icon-group"></use>
                             </svg>
@@ -476,17 +548,17 @@
                             </svg>
                         </a>
                     </li>
-                </ul> -->
-            </div>
-        </section>
+                </ul>   -->
+            <!-- </div> -->
+        <!-- </section> -->
     </main>
 
     <!-- footer -->
     <!-- <footer class="site-footer"> -->
-        <div class="container div-footer">
+        <!-- <div class="container div-footer"> -->
 
             <!-- Адресс и логотип -->
-            <!-- <div>
+             <!-- <div>
                 <a class="footer-logo link" href="./index.html" lang="en">Web<span class="logo-color">Studio</span>
                 </a>
 
@@ -514,10 +586,10 @@
                         </li>
                     </ul>
                 </address>
-            </div> -->
+            </div>  -->
 
             <!-- Соц ссылки -->
-            <!-- <div class="div">
+             <!-- <div class="div">
                 <h3 class="footer-h">ПРИСОЕДИНЯЙТЕСЬ</h3>
                 <ul class="footer-icon-soc-network soc-network list ">
                     <li class="lict-icon-item">
@@ -555,7 +627,7 @@
             </div> -->
 
             <!-- Форма "Подписка на рассылку" -->
-           <!-- <form class="form-email-poziriya">
+            <!-- <form class="form-email-poziriya">
                 <p class="footer-form-heading">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
 
                 <div class="div-input-btn">
@@ -572,8 +644,8 @@
                 </button>
            </form> -->
 
-            </div>
-      </footer>
+            <!-- </div> -->
+      <!-- </footer> -->
 
       <!-- "Модальное окно" -->
     <div class="backdrop is-hidden" data-modal>
