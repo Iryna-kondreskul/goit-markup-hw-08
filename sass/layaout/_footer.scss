@@ -3,6 +3,13 @@
   padding-bottom: 60px;
 }
 
+.footer__logo-adress {
+  @media screen and(min-width:320px) {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+}
+
 .footer-logo {
   margin: 0;
   padding: 0;
@@ -17,18 +24,25 @@
   margin-top: 20px;
   font-style: normal;
 
-  width: 231px;
-  height: 81px;
+  @media screen and(min-width:1024px) {
+    width: 231px;
+    height: 81px;
+  }
 }
 
 /* ul */
 .footer-contact {
   margin: 0;
+
+  @media screen and(min-width:320px) {
+  }
 }
 
 /* li */
 .footer-contact-item:not(:last-child) {
-  margin-bottom: 9px;
+  @media screen {
+    margin-bottom: 9px;
+  }
 }
 
 .footer-link,
@@ -59,18 +73,22 @@
 
 /* ---------------Стили для svg------------------ */
 .div-footer {
-  display: flex;
-  align-items: baseline;
+  // display: flex;
+  // align-items: baseline;
+  align-items: center;
 }
 
 .footer-adresss {
-  margin-right: px;
+  // margin-right: px;
+  // margin: 28px 132px 60px;
   padding: 0 auto;
   outline: 2px solid var(--maket-color);
 }
 
 .div {
-  margin-left: 70px;
+  @media screen and(min-width:1024px) {
+    margin-left: 70px;
+  }
 }
 
 .footer-h {
