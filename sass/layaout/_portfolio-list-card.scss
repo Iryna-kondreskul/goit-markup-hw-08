@@ -9,8 +9,11 @@
     margin-top: 40px;
   }
   @media screen and(min-width:768px) {
-    justify-content: center;
     display: flex;
+  }
+
+  @media screen and(min-width:1024px) {
+    justify-content: center;
   }
 }
 
@@ -19,9 +22,9 @@
   @media screen and(min-width:768px) {
     flex-basis: calc((100% / 2 - 30px));
     width: 354px;
-    height: 440px;
-    left: 399px;
-    top: 208px;
+    // height: 440px;
+    // left: 399px;
+    // top: 208px;
     // margin-top: 14px;
     margin-left: 30px;
   }
@@ -32,9 +35,9 @@
     margin-left: 30px;
     margin-top: 30px;
     width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 262px;
+    // height: 404px;
+    // left: 215px;
+    // top: 262px;
   }
 
   background: var(--color-main-button);

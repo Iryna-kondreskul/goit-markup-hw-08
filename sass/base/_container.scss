@@ -1,9 +1,10 @@
 .container {
-  // outline: 2px solid red;
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  // margin-left: auto;
+  // margin-right: auto;
 
   @media screen and(min-width:320px) {
     width: 480px;
@@ -11,14 +12,14 @@
     padding-bottom: 60px;
   }
 
-  @media screen and(min-width:720px) {
+  @media screen and(min-width:768px) {
     width: 768px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
 
   @media screen and(min-width:1024px) {
-    width: 1200px;
+    width: 1600px;
     padding-top: 94px;
     padding-bottom: 94px;
   }
