@@ -2,7 +2,7 @@
 /* div */
 .footer-e-mail-input {
   margin-left: 105px;
-  // display: flex;
+  display: flex;
 }
 
 /* form */
@@ -31,11 +31,20 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  // color: var(--maket-color);
+  color: var(--maket-color);
+
+  @media screen and(max-width:1023px) {
+    margin-top: 60px;
+    text-align: center;
+  }
 }
 
 .div-input-btn {
-  @media screen and(min: width 1024px) {
+  @media screen and(max-width:1023px) {
+    text-align: center;
+  }
+
+  @media screen and(min-width: 1023px) {
     display: flex;
   }
 }
@@ -60,8 +69,6 @@
 
 /*  button*/
 .footer-form-btn {
-  /* width: 200px; */
-
   height: 50px;
   margin-left: 12px;
   background-color: var(--accent-color);
@@ -78,6 +85,12 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  @media screen and(max-width:1023px) {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* svg */
