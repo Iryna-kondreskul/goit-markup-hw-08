@@ -62,7 +62,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1600px;
+    width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -208,7 +208,7 @@ body {
   margin-left: auto;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .contact {
     display: flex;
   }
@@ -384,7 +384,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .list-section-work {
     display: flex;
   }
@@ -396,7 +396,7 @@ body {
   padding: 25px 0px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .list-features:not(:last-child) {
     margin-right: 30px;
   }
@@ -409,7 +409,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .list-features {
     margin-right: 30px;
     flex-wrap: wrap;
@@ -467,7 +467,7 @@ body {
   background: rgba(47, 48, 58, 0.8);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .heading_cections_work {
     display: none;
   }
@@ -483,7 +483,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .list-img {
     display: flex;
     padding: 0;
@@ -634,6 +634,7 @@ body {
 @media screen and (min-width: 768px) {
   .list-labe-company {
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -912,7 +913,7 @@ body {
   width: 100%;
 }
 
-@media screen and (min: width 1024px) {
+@media screen and (min: width 1200px) {
   .form-email-poziriya {
     margin-left: 105px;
   }
@@ -1066,7 +1067,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .list-btn {
     margin: 0px 0px 50px;
   }
@@ -1201,7 +1202,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   img {
     display: block;
   }
