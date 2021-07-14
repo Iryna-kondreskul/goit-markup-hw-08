@@ -2,16 +2,16 @@
   // margin-left: auto;
   // margin-right: auto;
 
-  @media screen and(min-width:1024px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  @media screen and(min-width:1200px) {
+    // padding-top: 60px;
+    // padding-bottom: 60px;
   }
 }
 
 .footer__logo-adress {
   @media screen and(min-width:320px) {
     // margin-bottom: 60px;
-    text-align: center;
+    // text-align: center;
   }
 
   @media screen and(min-width:768px) {
@@ -34,7 +34,7 @@
   margin-top: 20px;
   font-style: normal;
 
-  @media screen and(min-width:1024px) {
+  @media screen and(min-width:1200px) {
     width: 231px;
     height: 81px;
   }
@@ -49,7 +49,7 @@
 
 /* li */
 .footer-contact-item:not(:last-child) {
-  @media screen and(min-width:1024px) {
+  @media screen and(min-width:1200px) {
     margin-bottom: 9px;
   }
 }
@@ -83,19 +83,23 @@
 /* ---------------Стили для svg------------------ */
 .div-footer {
   align-items: baseline;
+  @media screen and(min-width:320px) {
+    text-align: center;
+  }
 
   @media screen and(min-width:768px) {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 
-  @media screen and(min-width:1024px) {
+  @media screen and(min-width:1200px) {
     flex-wrap: nowrap;
   }
 }
 
 .footer-adresss {
-  // margin-right: 0px;
+  margin-right: 0px;
   padding: 0 auto;
   outline: 2px solid var(--maket-color);
 }
@@ -107,9 +111,9 @@
   }
 
   @media screen and(min-width:768px) {
-    margin-left: 120px;
+    // margin-left: 120px;
   }
-  @media screen and(min-width:1024px) {
+  @media screen and(min-width:1200px) {
     margin-left: 85px;
     margin-right: 85px;
   }
@@ -121,6 +125,10 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  @media screen and(min-width:1200px) {
+    text-align: start;
+  }
 }
 
 .footer-icon-soc-network {
